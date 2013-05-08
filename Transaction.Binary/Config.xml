@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<Configuration xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <DbProvider>
+    <Name>POSTGRESQL</Name>
+    <Version>Standard</Version>
+    <CreateDB>false</CreateDB>
+    <PrintDbScript>false</PrintDbScript>
+    <PrintSql>false</PrintSql>
+    <InitilizeFactoryAtStartup>false</InitilizeFactoryAtStartup>
+    <Server>127.0.0.1</Server>
+    <Database>transaction_db</Database>
+    <UserId>postgres</UserId>
+    <Password>postgresql</Password>
+    <Port>5432</Port>
+  </DbProvider>
+  <Listdivice />
+</Configuration>
